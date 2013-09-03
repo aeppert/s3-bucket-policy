@@ -6,7 +6,7 @@
             "Sid": "Stmt1361081441897",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::772560792726:user/packetloop-s3"
+                "AWS": "arn:aws:iam::251891246345:user/packetloop-s3"
             },
             "Action": "s3:ListBucket",
             "Resource": "arn:aws:s3:::<INSERT BUCKET NAME>"
@@ -15,7 +15,7 @@
             "Sid": "Stmt1361081477939",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::772560792726:user/packetloop-s3"
+                "AWS": "arn:aws:iam::251891246345:user/packetloop-s3"
             },
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::<INSERT BUCKET NAME>/*"
